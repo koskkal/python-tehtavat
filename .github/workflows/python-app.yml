@@ -33,5 +33,5 @@ jobs:
     - name: Coverage test
       run: |
       coverage run --source=. -m pytest
-      coverage -m report
+      coverage report
 
